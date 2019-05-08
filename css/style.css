@@ -1,0 +1,130 @@
+.dev-yellow{
+    background-color: #f7d27e;
+}
+.dev-text{
+    color: #f7d27e !important;
+}
+.btn-floating i.fa{
+    transition: .4s;
+}
+.btn-floating i.fa.fa-facebook:hover{
+    color: #3b5999;
+    background: #fff;
+}
+.btn-floating i.fa.fa-instagram:hover{
+    color: #fff;
+    background: #e4405f;
+}
+.btn-floating i.fa.fa-google-plus:hover{
+    color: #fff;
+    background: #dd4b39;
+}
+.btn-floating i.fa.fa-whatsapp:hover{
+    color: #fff;
+    background: #25D366;
+}
+mark{
+    background-color: #f7d27e;   
+}
+.back-dark{
+    background-color: #444;
+}
+.dotted-scrollspy{
+    display: none;
+}
+.d-fault{
+    display: flex;
+}
+.progress{
+    box-shadow: none;
+    position: relative;
+    /*display: block;*/
+    height: 4px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    border-radius: .25rem;
+}
+.progress-bar{
+    background-color: #facc62;
+    border-radius: 0;
+}
+.blockquote{
+    padding-top: 0;
+}
+.blockquote p{
+    padding: 0;
+    font-size: 15px;
+}
+nav .nav-item .nav-link{
+    -webkit-transition: .2s !important;
+    transition: .2s !important;
+}
+.md-form input[type=text]:focus:not([readonly]),
+.md-form textarea.md-textarea:focus:not([readonly]){
+    box-shadow: 0 1px 0 0 #facc62 !important;
+    border-bottom: 1px solid #facc62 !important;
+}
+form input[type=text]:focus:not([readonly])+label,
+.md-form textarea.md-textarea:focus:not([readonly])+label{
+    color: #facc62 !important;
+}
+.dotted-scrollspy li a.active span{
+    background: #facc62 !important;
+}
+#proccess{
+    display: none;
+}
+@media (max-width: 992px){
+    .row.smooth-scroll h3{
+        font-size: 50px !important;
+    }
+    h3{
+        font-size: 40px;
+    }
+    h3 span.font-weight-bold{
+        font-size: 40px !important;
+    }
+    .dotted-scrollspy{
+        display: block;
+    }
+    .d-fault{
+        display: block;
+    }
+    .nav.nav-tabs.nav-justified,.tab-content.card{
+        display: none;
+    }
+    #proccess{
+        display: block;
+    }
+}
+@media (max-width: 765px){
+    h3{
+        font-size: 36x;
+        text-align: center;
+    }
+    h3 span.font-weight-bold{
+        font-size: 36px !important;
+    }
+}
+@media (max-width: 485px){
+    .row.smooth-scroll h3{
+        font-size: 35px !important;
+    }
+    .mb-5{
+        margin-bottom: 1.5rem !important;
+    }
+    mark{
+        font-size: 15px;
+    }
+    h3 span.font-weight-bold,h3{
+        font-size: 27px !important;
+    }
+}
+@media (max-width: 430px){
+    #proccess-content{
+        margin-left: 20px;
+    }
+    #proccess-content p{
+        font-size: 15px;
+    }
+}
